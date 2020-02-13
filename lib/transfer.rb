@@ -31,8 +31,7 @@ class Transfer
     receiver.balance = receiver.balance - amount
     self.status = "reversed"
     else
-      "Transaction rejected."
+      puts "Transaction rejected."
     end
-    binding.pry
   end
 end
