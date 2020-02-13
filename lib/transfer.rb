@@ -30,8 +30,9 @@ class Transfer
     sender.balance = sender.balance + amount
     receiver.balance = receiver.balance - amount
     self.status = "reversed"
-    else 
+    else
       "Transaction rejected."
     end
+    binding.pry
   end
 end
