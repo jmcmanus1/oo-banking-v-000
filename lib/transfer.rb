@@ -33,5 +33,6 @@ class Transfer
     else
       puts "Transaction rejected."
     end
+    binding.pry
   end
 end
